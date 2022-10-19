@@ -5,4 +5,4 @@
 
 ## linux-projeto1-iac
 
-- [ ] primeiro projeto, entrega de script para criação de usuario colocando cada um a seu grupo ![iacl.sh](https://github.com/douglastos/clouddevopsexperience/linux-projeto1-iac/blob/master/iacl.sh)
+- [ ] primeiro projeto, entrega de script para criação de usuario colocando cada um a seu grupo ![iacl.sh](https://github.com/douglastos/clouddevopsexperience/blob/master/linux-projeto1-iac/iacl.sh)
