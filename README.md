@@ -9,4 +9,4 @@
 
 ## linux-projeto2-iac
 
-- [ ] segundo projeto, entrega de script para provisionar servidor apache e deployar site statico no diretorio. ![iac2.sh](https://github.com/douglastos/clouddevopsexperience/blob/master/projeto-provisonamento-apache/iac2.sh)
+- [ ] segundo projeto, entrega de script para provisionar servidor apache e deployar site statico no diretorio. ![iac2.sh](https://github.com/douglastos/clouddevopsexperience/blob/master/provisonamento-apache-projeto2-iac/iac2.sh)
