@@ -1,4 +1,6 @@
-<img src="https://hermes.digitalinnovation.one/tracks/4c1c9e04-857e-4683-ba5b-4b0eafcd4d2c.png" width="100"> 
+<img src="https://hermes.digitalinnovation.one/assets/diome/logo.svg" width="600"> <img src="https://hermes.digitalinnovation.one/tracks/4c1c9e04-857e-4683-ba5b-4b0eafcd4d2c.png" width="200"> 
+
+
 
 # Cloud DevOps Experience - Banco Carrefour
 
