@@ -12,3 +12,7 @@
 ## linux-projeto2-iac
 
 - [ ] segundo projeto, entrega de script para provisionar servidor apache e deployar site statico no diretorio. ![iac2.sh](https://github.com/douglastos/clouddevopsexperience/blob/master/provisonamento-apache-projeto2-iac/iac2.sh)
+
+## projeto2-website com docker-compose
+
+- [ ] terceiro projeto, entrega de web site (simples, somente conceito) com docker-compose. ![projeto docker-compose](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-website)
