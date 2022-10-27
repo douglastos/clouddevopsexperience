@@ -20,4 +20,4 @@
 
 ## dockerswarm-cluster-projeto2 
 
-- [ ] quaro projeto, entrega provisao de infra com Vagrant ja provisonado docker e docker swarm ![projeto docker-compose](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-website)
+- [ ] quaro projeto, entrega provisao de infra com Vagrant ja provisonado docker e docker swarm ![dockerswarm-cluster-projeto2](https://github.com/douglastos/clouddevopsexperience/tree/master/dockerswarm-cluster-projeto2)
