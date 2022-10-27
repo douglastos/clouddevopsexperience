@@ -16,3 +16,8 @@
 ## projeto2-website com docker-compose
 
 - [ ] terceiro projeto, entrega de web site (simples, somente conceito) com docker-compose. ![projeto docker-compose](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-website)
+
+
+## dockerswarm-cluster-projeto2 
+
+- [ ] quaro projeto, entrega provisao de infra com Vagrant ja provisonado docker e docker swarm ![projeto docker-compose](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-website)
