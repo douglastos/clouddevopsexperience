@@ -24,4 +24,4 @@
 
 ## peojeto k8s do zero a produção
 
-- [ ] quinto projeto, entrega deploy com scripts no k8s tanto minikube como na nuvem![k8s do zero a producao](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-k8s)
+- [ ] quinto projeto, entrega deploy com scripts no k8s tanto minikube como na nuvem ![k8s do zero a producao](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-k8s)
