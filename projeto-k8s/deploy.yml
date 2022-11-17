@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db
+spec:
+  selector:
+    matchLabels:
+      app: db
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      containers:
+      - image: douglastos/db:1.0
+        args:
+          - "--ignore-db-dir=lost+found"
+        imagePullPolicy: Always
+        name: db
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: Mudar@123
+        - name: MYSQL_DATABASE
+          value: db
+        ports:
+        - containerPort: 3306
+          name: db
+        
+        volumeMounts:
+        - name: local
+          mountPath: /var/lib/mysql
+      volumes:
+      - name: local
+        hostPath:
+          path: /db/
+
+--- 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: app
+  name: app
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+      - image: douglastos/backend-php:1.0
+        name: app
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}

@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+spec:
+  selector:
+    app: app
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-conect
+spec:
+  selector:
+    app: db
+  ports:
+  - port: 3306
+  clusterIP: None
