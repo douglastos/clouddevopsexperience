@@ -11,7 +11,7 @@ docker push douglastos/db:1.0
 docker push douglastos/backend-php:1.0
 
 echo "Subindo as servicos K8S ..."
-#kubectl apply -f ./services.yml
+kubectl apply -f ./services.yml
 
 echo "Efetuadno os deploy em K8S ..."
-#kubectl apply -f ./deploy.yml
+kubectl apply -f ./deploy.yml
