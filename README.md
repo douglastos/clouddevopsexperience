@@ -21,3 +21,7 @@
 ## dockerswarm-cluster-projeto2 
 
 - [ ] quarto projeto, entrega provisao de infra com Vagrant ja provisonado docker e docker swarm ![dockerswarm-cluster-projeto2](https://github.com/douglastos/clouddevopsexperience/tree/master/dockerswarm-cluster-projeto2)
+
+## peojeto k8s do zero a produção
+
+- [ ] quinto projeto, entrega deploy com scripts no k8s tanto minikube como na nuvem![k8s do zero a producao](https://github.com/douglastos/clouddevopsexperience/tree/master/projeto-k8s)
